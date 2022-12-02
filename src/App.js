@@ -11,14 +11,14 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Header />
       <Nav />
       <About />
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>
