@@ -1,6 +1,8 @@
 import React from 'react';
 import CTA from './CTA';
 import ME from '../../assets/me.png'
+// import ron from '../../assets/ronImg.png'
+// import ronBlue from '../../assets/ronLuue.png'
 import HeaderSocials from './HeaderSocials';
 import './Header.css'
 
@@ -18,7 +20,6 @@ const Header = () => {
                     <img src={ME} alt="" />
                 </div>
                 <a className='scrool-down' href="#contact">Scrool Down</a>
-
             </div>
         </header>
     );

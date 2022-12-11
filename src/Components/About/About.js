@@ -23,22 +23,22 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>3+ Years Experience</small>
+                            <small>1+ Years Experience</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
+                            <small>30+ Worldwide</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>80+ Completed</small>
+                            <small>20+ Completed</small>
                         </article>
                     </div>
 
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quia voluptas labore exercitationem quod nobis omnis, corporis culpa molestias similique officiis necessitatibus quas provident at eum, quo doloribus aspernatur cum.</p>
+                    <p>As a web developer, I am passionate about using my skills and knowledge to create innovative and user-friendly websites. With experience in a range of technologies including HTML, CSS, JavaScript, React, Node Js, etc, I am well-equipped to tackle any project. I am a team player and enjoy collaborating with designers and other developers to bring web projects to life. I am dedicated to staying up to date with the latest developments in the field and am always looking for opportunities to learn and grow.</p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
                 </div>

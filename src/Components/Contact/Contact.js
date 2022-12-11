@@ -5,6 +5,7 @@ import { RiMessengerLine } from "react-icons/ri"
 import { BsWhatsapp } from "react-icons/bs"
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import toast from 'react-hot-toast';
 
 
 const Contact = () => {
@@ -21,6 +22,7 @@ const form = useRef()
             });
 
             e.target.reset()
+            toast.success("Your Email Has Been Sent")
     };
 
 
