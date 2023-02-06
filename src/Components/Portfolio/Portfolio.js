@@ -21,8 +21,8 @@ const Portfolio = () => {
 
     useEffect(() => {
         fetch(`projects.json`)
-        .then(res => res.json())
-        .then(data => setProjects(data))
+            .then(res => res.json())
+            .then(data => setProjects(data))
     }, [])
 
 
@@ -37,9 +37,9 @@ const Portfolio = () => {
             <div className='container portfolio__container'>
                 {
                     projects?.map((project, i) => {
-                        const {name, githubLink, liveLink, img, id} = project
+                        const { name, githubLink, liveLink, img, id } = project
                         return (
-                            <article key={i} className='portfolio__item'>
+                            <article data-aos="zoom-in" data-aos-delay="400" key={i} className='portfolio__item'>
                                 <div className='portfolio__item-image'>
                                     <img src={img} alt="" />
                                 </div>

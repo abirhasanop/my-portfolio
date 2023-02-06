@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -24,7 +24,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 6rem;
+    bottom: 19rem;
 }
 
 .header__socials::after {
@@ -36,29 +36,27 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    /* background: var(--color-primary); */
-    width: 25rem;
-    height: 30rem;
-    /* margin: 0 auto; */
-    position: absolute;
-    left: calc(50% - 11rem);
+    width: 23rem;
+    height: 23rem;
+    margin: 0 auto;
     overflow: hidden;
-    padding: 5rem 1.5rem 0 1.5rem;
+    padding: 8rem 1.5rem 0 1.5rem;
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    /* display: flex;
-    align-items: flex-end; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* .me img{
-    width: 100%;
-    height: 100%;
-} */
+.me img {
+    /* width: 100%;
+    height: 100%; */
+}
 
 .scrool-down {
     position: absolute;
     right: -2.3rem;
-    bottom: 9rem;
+    bottom: 23rem;
     transform: rotate(90deg);
 }
 

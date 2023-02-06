@@ -1,14 +1,12 @@
 import React from 'react';
 import './ProjectDetails.css'
-import { useEffect } from 'react';
-import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Contact from '../../Components/Contact/Contact';
 
 const ProjectDetails = () => {
 
     const { id } = useParams()
 
-    // const products = useLoaderData()
 
     const products = [
         {

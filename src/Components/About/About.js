@@ -4,21 +4,24 @@ import Me from '../../assets/me-about.jpg'
 import { FaAward } from "react-icons/fa"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
+import SpaceImg from "../../assets/037911dc101566138298ddf0a1e62603.gif"
 
 const About = () => {
+
+
     return (
         <section id='about'>
             <h5>Get To Know</h5>
             <h2>About Me</h2>
 
-            <div className="container about__container">
+            <div data-aos="fade-right" data-aos-delay="200" className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={Me} alt="" />
+                        <img src={SpaceImg} alt="" />
                     </div>
                 </div>
 
-                <div className='about__content'>
+                <div data-aos="fade-left" data-aos-delay="400" className='about__content'>
                     <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon' />

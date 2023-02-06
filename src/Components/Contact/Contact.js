@@ -9,7 +9,7 @@ import toast from 'react-hot-toast';
 
 
 const Contact = () => {
-const form = useRef()
+    const form = useRef()
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -21,8 +21,8 @@ const form = useRef()
                 console.log(error.text);
             });
 
-            e.target.reset()
-            toast.success("Your Email Has Been Sent")
+        e.target.reset()
+        toast.success("Your Email Has Been Sent")
     };
 
 
@@ -33,7 +33,7 @@ const form = useRef()
 
             <div className="container contact__container">
                 {/* options */}
-                <div className="contact__options">
+                <div data-aos="fade-right" data-aos-delay="400" className="contact__options">
                     <article className='contact__option'>
                         <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
@@ -56,9 +56,9 @@ const form = useRef()
 
 
                 {/* contact form */}
-                <form ref={form} onSubmit={sendEmail}>
+                <form data-aos="fade-left" data-aos-delay="400" ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Full Name' required />
-                    <input type="email" name="email" placeholder='Your Email'  required/>
+                    <input type="email" name="email" placeholder='Your Email' required />
                     <textarea name="message" rows="7" placeholder='Your Message'></textarea>
                     <button type="submit" className='btn btn-primary'>Send Message</button>
                 </form>

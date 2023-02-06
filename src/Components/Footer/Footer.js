@@ -1,28 +1,28 @@
 import React from 'react';
 import "./Footer.css"
-import { FaFacebookF } from 'react-icons/fa'
-import { FiInstagram } from 'react-icons/fi'
 import { IoLogoTwitter } from 'react-icons/io'
+import { BsGithub } from "react-icons/bs"
+import { TfiLinkedin } from "react-icons/tfi"
 
 const Footer = () => {
     return (
         <footer>
-            <a href="#_" className='footer__logo'>MarkiTox</a>
+            <a href="#_" className='footer__logo'>Abir Hasan</a>
 
 
             <ul className='permalinks'>
                 <li><a href="#header">Home</a></li>
-                <li><a href="#about">Home</a></li>
-                <li><a href="#experience">Home</a></li>
-                <li><a href="#portfolio">Home</a></li>
-                <li><a href="#contact ">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact ">Contact</a></li>
             </ul>
 
 
             <div className='footer__socials'>
-                <a href="https://www.facebook.com"><FaFacebookF/></a>
-                <a href="https://www.facebook.com"><FiInstagram/></a>
-                <a href="https://www.facebook.com"><IoLogoTwitter/></a>
+                <a data-aos="fade-right" data-aos-delay="400" href="https://www.facebook.com"><BsGithub /></a>
+                <a data-aos="zoom-in" data-aos-delay="400" href="https://www.facebook.com"><TfiLinkedin /></a>
+                <a data-aos="fade-left" data-aos-delay="400" href="https://www.facebook.com"><IoLogoTwitter /></a>
             </div>
 
             <div className='footer__copyright'>
